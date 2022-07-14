@@ -1,0 +1,21 @@
+===========================
+Instalar librerias Adafruit
+===========================
+
+Ingresar a la ruta
+	https://github.com/adafruit/Adafruit_Python_DHT
+
+Clonar el repositorio en una carpeta en la Raspberry pi
+	git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+
+Ir a la carpeta que se clono de git
+	cd Adafruit_Python_DHT
+
+Eejcutar la libreria
+	sudo python3 setup.py install
+
+=====================
+Instalar servidor VNC
+=====================
+
+sudo apt-get install xrdp tightvncserver
